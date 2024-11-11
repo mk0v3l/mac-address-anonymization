@@ -9,6 +9,7 @@
 \usepackage[francais]{babel}
 
 \usepackage{datetime2}
+\usepackage{csquotes}
 
 % Redéfinir la commande \today pour supprimer "Dated: "
 % \renewcommand{\today}{\DTMdisplaydate{ \the\year}{\the\month}{\the\day}{-1}}
@@ -177,7 +178,8 @@ bla bla bla
 
 \section{\label{sec:Law}What does the law say ?}
   \subsection{\label{subsec:GDPR}GDPR}
-  The principles of data protection should apply to any information concerning an
+  % \enquote{
+  ``The principles of data protection should apply to any information concerning an
   identified or identifiable natural person. 
   Personal data which have undergone pseudonymisation, which could be attributed to a natural person by
   the use of additional information should be considered to be information on an identifiable natural person. To
@@ -189,32 +191,33 @@ bla bla bla
   The principles of data protection should therefore not apply to anonymous information, namely information
   which does not relate to an identified or identifiable natural person or to personal data rendered anonymous in
   such a manner that the data subject is not or no longer identifiable. This Regulation does not therefore concern
-  the processing of such anonymous information, including for statistical or research purposes.\cite{GDPR2016}
+  the processing of such anonymous information, including for statistical or research purposes.`` \cite{GDPR2016}
+  % }
 
   \subsection{\label{subsec:ECHR}European Convention on Human Rights}
   \begin{enumerate}
-    \item[34.] Individual applications
+    \item[34.] ``Individual applications
   The Court may receive applications from any person, non-
   governmental organisation or group of individuals claiming to be
   the victim of a violation by one of the High Contracting Parties of
   the rights set forth in the Convention or the Protocols thereto. The
   High Contracting Parties undertake not to hinder in any way the
-  effective exercise of this right.
+  effective exercise of this right.``
 
-\item[35.] Admissibility criteria
+\item[35.] ``Admissibility criteria
 \end{enumerate}
   \begin{enumerate}
     \item[1.] [...]
     \item[2.] The Court shall not deal with any application submitted under Article 34 that
     \begin{enumerate}
-      \item is anonymous; or [...]
+      \item is anonymous; or [...]`` \cite{ECHR1950}
     \end{enumerate}
   \end{enumerate}
   \cite{ECHR1950}
 
   \subsection{\label{subsec:Conv108}Convention 108+}
     \begin{enumerate}
-      \item[18.] The notion of “identifiable” refers not only to the
+      \item[18.] ``The notion of “identifiable” refers not only to the
     individual’s civil or legal identity as such, but also to
     what may allow to “individualise” or single out (and
     thus allow to treat differently) one person from others.
@@ -233,9 +236,9 @@ bla bla bla
     onymisation techniques applied should be duly taken
     into account when assessing the appropriateness of
     safeguards implemented to mitigate the risks to data
-    subjects.
+    subjects.``
 
-    \item[19.] Data is to be considered as anonymous only as
+    \item[19.] ``Data is to be considered as anonymous only as
     long as it is impossible to re-identify the data subject
     or if such re-identification would require unreasonable
     time, effort or resources, taking into consideration the
@@ -253,17 +256,17 @@ bla bla bla
     age, sex, occupation, geolocation, family status, etc.).
     Where this is the case, the data may not be considered
     anonymous and is covered by the provisions of the
-    Convention.
+    Convention.``
 
-    \item[20.] When data is made anonymous, appropriate
+    \item[20.] ``When data is made anonymous, appropriate
     means should be put in place to avoid re-identification
     of data subjects, in particular, all technical means
     should be implemented in order to guarantee that
     the individual is not, or is no longer, identifiable. They
     should be regularly re-evaluated in light of the fast
-    pace of technological development.
+    pace of technological development.``\cite{Conv108+}
     \end{enumerate}
-    \cite{Conv108+}
+    
 
   \subsection{\label{subsec:BEL}Belgian Law}
 
@@ -275,26 +278,26 @@ bla bla bla
   scientific, or statistical purposes.
 
     \begin{enumerate}
-    \item[99.] outlines conditions under which personal data from intelligence 
+    \item[99.] ``outlines conditions under which personal data from intelligence 
     and security services can be consulted for such purposes. The consultation 
     is authorized only if it does not conflict with the service’s mandate, obligations 
     under the Act of 30 November 1998, ongoing investigations, or international relations. 
     Any request for further processing of such data for other purposes will be refused 
-    unless deemed legitimate by the concerned service.
+    unless deemed legitimate by the concerned service.``
 
-    \item[132.] allows the consultation of personal data held by authorities or 
+    \item[132.] ``allows the consultation of personal data held by authorities or 
     appeal boards for historical, scientific, or statistical purposes. However, 
     it is conditional on ensuring that it does not harm any interests protected 
     under the Act of 11 December 1998, particularly regarding the confidentiality 
-    and protection of personal data.
+    and protection of personal data.``
 
-    \item[162.] similarly authorizes the consultation of personal data from CUTA 
+    \item[162.] ``similarly authorizes the consultation of personal data from CUTA 
     (the Coordination Unit for Threat Analysis) for historical, scientific, or 
     statistical purposes. Again, this is contingent on ensuring no harm to CUTA’s 
     mandate, ongoing investigations, or international relations. Any requests for 
     further processing of such data for different purposes will be denied unless 
     the processing is considered legitimate and does not interfere with the 
-    protected interests.
+    protected interests.``
     \end{enumerate}
   \cite{BelgianAct2018}
 
