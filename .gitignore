@@ -1,6 +1,8 @@
 # LaTex
+
 *.aux
 *.blg
 *.toc
 *.log
 *.out
+*.bbl
