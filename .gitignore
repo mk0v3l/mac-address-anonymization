@@ -1,5 +1,6 @@
 # LaTex
 
+rapportNotes.bib
 *.aux
 *.blg
 *.toc
