@@ -1,0 +1,44 @@
+1. Gestion des infrastructures publiques (smart cities)
+
+    Qui ? Les gouvernements ou les entreprises impliquées dans la gestion des "smart cities" (villes intelligentes).
+    Pourquoi ? Ils pourraient collecter les adresses MAC pour surveiller la circulation des personnes dans certains espaces publics (par exemple, transports en commun, centres commerciaux, événements publics). Cela permettrait de comprendre les flux de population, d'optimiser les infrastructures (bus, parkings, éclairage public), et d'améliorer l'efficacité des services publics. Ces données peuvent aussi être utilisées pour la gestion de la sécurité ou de la gestion de l’énergie.
+
+2. Centres commerciaux et commerces de détail
+
+    Qui ? Les détaillants et les gestionnaires de centres commerciaux.
+    Pourquoi ? Ces acteurs peuvent utiliser les adresses MAC pour mesurer la fréquentation dans leurs magasins ou leurs centres commerciaux. En suivant les déplacements des clients via leur téléphone (même sans connexion Wi-Fi), ils peuvent optimiser l'agencement des magasins, personnaliser les publicités affichées, et analyser les habitudes d'achat. Ces données permettent aussi de mieux cibler des promotions géolocalisées.
+
+3. Hôtels et espaces de coworking
+
+    Qui ? Les hôtels, centres de conférence et espaces de coworking.
+    Pourquoi ? Les gestionnaires de ces espaces peuvent utiliser les adresses MAC pour suivre les visiteurs (durée de séjour, endroits les plus fréquentés) et offrir des services personnalisés. Par exemple, un hôtel pourrait suivre la fréquence de passage dans certaines zones (réception, restaurants, etc.) et proposer des services ciblés comme des offres spéciales ou des recommandations en fonction des préférences détectées.
+
+4. Applications de suivi de la santé (telles que les trackers d'activité)
+
+    Qui ? Les applications de suivi de santé ou les fabricants de dispositifs portables (comme les montres connectées).
+    Pourquoi ? Ces applications pourraient potentiellement utiliser des données de localisation (via Wi-Fi et adresses MAC) pour suivre le comportement physique des utilisateurs, détecter des patterns dans leurs habitudes (par exemple, où et quand ils font de l'exercice) et offrir des recommandations de santé personnalisées.
+
+5. Forces de l'ordre ou agences de sécurité privées
+
+    Qui ? Les forces de l'ordre, ou des entreprises spécialisées en sécurité privée.
+    Pourquoi ? Ces entités pourraient utiliser les adresses MAC pour effectuer des surveillances de grande envergure dans des lieux publics ou dans des événements afin de suivre des individus ou groupes suspects, ou même pour détecter des comportements criminels. Cela pourrait également être utilisé dans le cadre de la recherche de personnes disparues ou pour l’analyse de scènes de crime.
+
+6. Fournisseurs d'infrastructures Wi-Fi publics
+
+    Qui ? Les entreprises qui gèrent des réseaux Wi-Fi publics, comme dans les cafés, les aéroports, ou les bibliothèques.
+    Pourquoi ? Ces entreprises collectent souvent les adresses MAC des utilisateurs afin de proposer une connexion Wi-Fi gratuite, souvent en échange d'informations de contact ou de consentement pour suivre les utilisateurs. Cela permet de proposer des services personnalisés (publicités, offres spéciales), ou même de créer des profils d’utilisateurs pour l’analyse comportementale.
+
+7. Applications de transport et de mobilité
+
+    Qui ? Les entreprises de transport en commun ou les applications de mobilité (comme Uber, Lyft, ou des services de location de vélos).
+    Pourquoi ? Ces applications peuvent collecter des adresses MAC pour suivre les trajets des utilisateurs, analyser les habitudes de transport et optimiser les horaires ou les itinéraires. Par exemple, une entreprise pourrait analyser la concentration d'utilisateurs dans certaines zones et adapter l'offre de transport (ajustement des bus ou des voitures disponibles).
+
+8. Publicité dans les lieux physiques (out of home advertising)
+
+    Qui ? Les entreprises spécialisées dans la publicité extérieure (affichage numérique dans les rues, transports publics, etc.).
+    Pourquoi ? Elles peuvent utiliser les adresses MAC pour suivre les comportements des passants et adapter les publicités affichées en fonction des profils démographiques (âge, sexe, heure de passage). Cela permet de maximiser l'efficacité de la publicité en ciblant les personnes qui sont les plus susceptibles d'être intéressées par l'annonce.
+
+9. Événements ou festivals
+
+    Qui ? Les organisateurs d'événements ou de festivals.
+    Pourquoi ? En collectant les adresses MAC, les organisateurs peuvent suivre les déplacements des participants dans le lieu de l'événement, mesurer la fréquentation, et même personnaliser les interactions (par exemple, envoyer des notifications ciblées ou des promotions sur les stands). Cela peut également être utilisé pour la sécurité (surveillance de foules).
