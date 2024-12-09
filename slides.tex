@@ -9,20 +9,21 @@ notes=hide,
 
 % \usetheme{default}
 % \usetheme{AnnArbor}
-\usetheme{Boadilla}
+% \usetheme{Boadilla}
 % \usetheme{CambridgeUS}
-% \usetheme{Madrid}
+\usetheme{Madrid}
 %
 % \usecolortheme{beetle}
 % \usecolortheme{dolphin}
-\usecolortheme{lily}
-\usecolortheme{whale}
+% \usecolortheme{lily}
+% \usecolortheme{whale}
 
 \usefonttheme{default} % Typeset using the default sans serif font
 \useinnertheme{circles}
 
 
 
+\usepackage{soul}
 \usepackage{amssymb,latexsym,amsmath}
 \usepackage[mathscr]{euscript}
 \usepackage{mathrsfs}
@@ -102,6 +103,16 @@ notes=hide,
 \begin{frame}
   \section{What is the Structure of a MAC Address?}
   \frametitle{What is the Structure of a MAC Address?}
+	\begin{figure}
+    \includegraphics[width=0.5\linewidth]{pictures/mac.jpeg}
+		\caption{MAC Address Structure}
+	\end{figure}
+\end{frame}
+
+
+\begin{frame}
+  \section{What is the Structure of a MAC Address?}
+  \frametitle{What is the Structure of a MAC Address?}
   \begin{itemize}
     \item 48 bits long, represented by a 12-digit hexadecimal number \pause
     \item First part: OUI (Organizationally Unique Identifier) \pause
@@ -144,64 +155,101 @@ notes=hide,
     \item Wi-Fi and Ethernet networks \pause
       \begin{itemize}
         \item Used to identify devices on a local network \pause
-        \item Associated with IP addresses using the ARP protocol \pause
+        \item Associated with IP addresses using the ARP protocol
       \end{itemize}
-    \item Used in data exchanges \pause
-      \begin{itemize}
-        \item Helps route data packets to the correct destination 
-      \end{itemize}
+    % \item Used in data exchanges \pause
+    %   \begin{itemize}
+    %     \item Helps route data packets to the correct destination 
+    %   \end{itemize}
   \end{itemize}
+\end{frame}
+
+% \begin{frame}
+%   \section{What Does the Law Say?}
+%   \frametitle{What Does the Law Say?}
+%   \begin{itemize}
+%     \item Role of MAC addresses in the network \pause
+%       \begin{itemize}
+%         \item Using MAC addresses to identify devices on the network 
+%       \end{itemize}
+%   \end{itemize}
+% \end{frame}
+
+\begin{frame}
+  \section{What Does the Law Say?}
+  \pause
+  \frametitle{What Does the Law Say?}
+	\begin{quote}
+    \begin{block}{GDPR}
+    ``
+  The principles of data protection should apply to any information concerning an
+  identified or identifiable natural person. [...]
+  \ul{The principles of data protection should therefore not apply to anonymous information}, [...]
+  ``
+\end{block}
+  \end{quote}
 \end{frame}
 
 \begin{frame}
   \section{What Does the Law Say?}
   \frametitle{What Does the Law Say?}
-  \begin{itemize}
-    \item Role of MAC addresses in the network \pause
-      \begin{itemize}
-        \item Using MAC addresses to identify devices on the network 
-      \end{itemize}
-  \end{itemize}
+  \begin{quote}
+    \begin{block}{European Convention on Human Rights}
+  \begin{enumerate}
+\item[35.] ``Admissibility criteria
+\end{enumerate}
+  \begin{enumerate}
+    \item[1.] [...]
+    \item[2.] \ul{The Court shall not deal with any application submitted under Article 34 that}
+    \begin{enumerate}
+      \item[•] \ul{is anonymous}; or [...]
+        ``
+    \end{enumerate}
+  \end{enumerate}
+\end{block}
+  \end{quote}
 \end{frame}
 
 \begin{frame}
-  \section{GDPR}
-  \frametitle{GDPR and MAC Addresses}
-  \begin{itemize}
-    \item The GDPR applies to any information that can directly or indirectly identify a person \pause
-    \item Pseudonymized data remains considered personal data if it can be re-identified \pause
-    \item Anonymized data is excluded from the scope of the GDPR, but anonymization must be irreversible 
-  \end{itemize}
+  \section{What Does the Law Say?}
+  \frametitle{What Does the Law Say?}
+  \begin{quote}
+    \begin{block}{Convention 108+}
+    \begin{enumerate}
+      \item[18.] ``
+    [...]{The use of a pseudonym or of any digital identifier/
+    digital identity does not lead to anonymisation of 
+  the data}[...]
+    ``
+  \item[19.] ``{Data is to be considered as anonymous only as
+    long as it is impossible to re-identify the data subject
+    or if such re-identification would require unreasonable
+  time, effort or resources}[...], 
+    ``
+  \item[20.] ``When data is made anonymous, appropriate
+    means should be put in place to avoid re-identification
+  of data subjects,[...]
+    ``
+    \end{enumerate}
+    \end{block}
+  \end{quote}
 \end{frame}
 
 \begin{frame}
-  \section{European Convention on Human Rights}
-  \frametitle{European Convention on Human Rights}
-  \begin{itemize}
-    \item Right of individual petition before the European Court of Human Rights \pause
-    \item Anonymous requests are inadmissible \pause
-    \item Protection of personal data and the absence of violation of privacy are paramount 
-  \end{itemize}
-\end{frame}
-
-\begin{frame}
-  \section{Convention 108+}
-  \frametitle{Convention 108+ and Identifiability}
-  \begin{itemize}
-    \item The concept of "pseudonymization" does not lead to data anonymization if the person can still be identified \pause
-    \item Pseudonymized data is considered personal data and protected under the Convention \pause
-    \item Re-identification of data requires suitable technical means and must avoid any risk to privacy 
-  \end{itemize}
-\end{frame}
-
-\begin{frame}
-  \section{Belgian Law}
-  \frametitle{Belgian Law on Data Protection}
-  \begin{itemize}
-    \item Belgian Law of July 30, 2018, on personal data protection \pause
-    \item Personal data must be anonymized before being consulted for historical, scientific, or statistical purposes \pause
-    \item Consultation of data is subject to strict conditions to prevent any breach of confidentiality and data protection 
-  \end{itemize}
+  \section{What Does the Law Say?}
+  \frametitle{What Does the Law Say?}
+  \begin{quote}
+    \begin{block}{Belgian Law on Data Protection}
+  ``
+  Articles 101, 134, and 164 of the Belgian Act of 30 July 2018 on the protection
+  of individuals with regard to the processing of personal data
+  stipulate that the personal data referred to in
+  \ul{Articles 99, 132, and 162 must be anonymized before they can be accessed.} 
+  These articles primarily concern the processing of personal data for historical, 
+  scientific, or statistical purposes.
+  ``
+  \end{block}
+  \end{quote}
 \end{frame}
 
 \begin{frame}
@@ -326,31 +374,6 @@ notes=hide,
   \textbf{Salt:} A random value added to the MAC address before hashing to enhance security, preventing attackers from using precomputed hashes.
 \end{frame}
 
-% \begin{frame}
-%   \section{Encryption}
-%   \frametitle{Encryption}
-%   Encryption secures the MAC address using symmetric or asymmetric algorithms, allowing recovery with a decryption key if necessary.
-%   \begin{itemize}
-%     \item \textbf{Recommended Encryption Scheme: DHIES} \pause
-%       \begin{itemize}
-%         \item Diffie-Hellman Integrated Encryption Scheme (DHIES) combines Diffie-Hellman key exchange and symmetric encryption (e.g., AES). \pause
-%         \item Suitable for systems needing high security with controlled access to the original MAC address. \pause
-%       \end{itemize}
-%     \item \textbf{Advantages:} \pause
-%       \begin{itemize}
-%         \item High security with double-layer protection (key exchange + symmetric encryption). \pause
-%         \item Allows recovery of the original MAC address with the decryption key. \pause
-%         \item Ideal for contexts where anonymization must be reversible under strict conditions. \pause
-%       \end{itemize}
-%     \item \textbf{Disadvantages:} \pause
-%       \begin{itemize}
-%         \item More complex implementation compared to other methods. \pause
-%         \item Key management can be challenging, especially in large systems. \pause
-%         \item Performance overhead due to encryption/decryption processes. 
-%       \end{itemize}
-%   \end{itemize}
-% \end{frame}
-
 \begin{frame}
   \section{Encryption}
   \frametitle{Encryption}
@@ -383,29 +406,31 @@ notes=hide,
   \end{itemize}
 \end{frame}
 
-
-
-
-
 \begin{frame}
   \section{Notable Incidents}
   \frametitle{Notable Incidents}
   \begin{itemize}
-    \item \textbf{Privacy Violation} \pause
+    \item \textbf{Nordstrom Privacy Violation} \pause
     \item \textbf{Google Street View} \pause
-    \item \textbf{Phones with Wi-Fi On} \pause
-    \item \textbf{Data Leaks and Security Breaches} \pause
-    \item \textbf{Attacks Exploiting MAC Addresses} \pause
+    \item \textbf{Retail and public space tracking scandals} \pause
     \item \textbf{WhatsApp Security Vulnerability} 
+    % \item \textbf{Phones with Wi-Fi On} \pause
+    % \item \textbf{Data Leaks and Security Breaches} \pause
+    % \item \textbf{Attacks Exploiting MAC Addresses} \pause
   \end{itemize}
 \end{frame}
 
 \begin{frame}
-  \section{Privacy Violation}
+  \section{Nordstrom}
   \frametitle{Privacy Violation: Nordstrom}
-  Nordstrom implemented technology to track customer movements in its stores through their Wi-Fi connections. The goal was to enhance the customer experience and optimize operations, such as adjusting staffing levels and rethinking department layouts. Sensors in stores collected information on the time customers spent in departments. However, after testing the technology, Nordstrom discontinued it in 2013 due to customer feedback, even though the data was intended to be anonymous and aggregated.
+  Nordstrom implemented technology to track customer movements in its stores through their Wi-Fi connections. 
+  The goal was to enhance the customer experience and optimize operations, such as adjusting staffing levels 
+  and rethinking department layouts. Sensors in stores collected information on the time customers spent in 
+  departments. However, after testing the technology, Nordstrom discontinued it in 2013 due to customer 
+  feedback, even though the data was intended to be anonymous and aggregated.
   \begin{itemize}
-    \item \textbf{Impact:} Although the technology aimed to be anonymous, it raised privacy concerns regarding the collection of customer movements. \pause
+    \item \textbf{Impact:} Although the technology aimed to be anonymous, it raised privacy concerns regarding 
+      the collection of customer movements. \pause
     \item \textbf{Outcome:} Nordstrom decided to halt the use of the technology following the trial. 
   \end{itemize}
 \end{frame}
@@ -413,7 +438,11 @@ notes=hide,
 \begin{frame}
   \section{Google Street View}
   \frametitle{Google Street View: Data Collection}
-  Since 2007, Google's Street View cars inadvertently collected data from open Wi-Fi networks while photographing streets. This raised concerns about the security of personal data transmitted over these networks. In an audit, Germany's data protection authority found that Google had gathered fragments of personal web activity. Although the data was never used in products, it highlighted vulnerabilities in unsecured Wi-Fi networks.
+  Since 2007, Google's Street View cars inadvertently collected data from open Wi-Fi networks while 
+  photographing streets. This raised concerns about the security of personal data transmitted over 
+  these networks. In an audit, Germany's data protection authority found that Google had gathered 
+  fragments of personal web activity. Although the data was never used in products, it highlighted 
+  vulnerabilities in unsecured Wi-Fi networks.
   \begin{itemize}
     \item \textbf{Impact:} Google admitted to collecting personal data unintentionally. \pause
     \item \textbf{Outcome:} Google halted the data collection and plans to delete the data under third-party supervision. 
@@ -421,27 +450,35 @@ notes=hide,
 \end{frame}
 
 \begin{frame}
-  \section{Phones with Wi-Fi On}
-  \frametitle{Phones with Wi-Fi On: Renew London Project}
-  In the Renew London project, data was collected from over 530,000 unique devices to analyze movement patterns, directions, and speeds. The collected data was aggregated and anonymized, but it raised concerns about privacy violations under the Data Protection Act, as MAC addresses could be considered personal data.
+  \section{Retail and Public Space Tracking Scandals}
+  \frametitle{Retail and Public Space Tracking Scandals: Renew London Project}
+  In the Renew London project, data was collected from over 530,000 unique devices to analyze movement 
+  patterns, directions, and speeds. The collected data was aggregated and anonymized through a network 
+  of recycling bins.
+  % , but it raised 
+  % concerns about privacy violations under the Data Protection Act, as MAC addresses could be considered 
+  % personal data.
   \begin{itemize}
     \item \textbf{Impact:} The project demonstrated the potential for targeted advertising based on location and behavior. \pause
-    \item \textbf{Outcome:} It is still unclear whether this data collection violated privacy laws, as the devices were not tracked individually. 
+    \item \textbf{Outcome:} It is still unclear whether this data collection violated privacy laws, as the 
+      devices were not tracked individually. 
   \end{itemize}
 \end{frame}
 
 \begin{frame}
   \section{WhatsApp Security Vulnerability}
   \frametitle{WhatsApp Security Vulnerability}
-  In 2012, a vulnerability in WhatsApp allowed attackers to impersonate users by obtaining their MAC address. The app relied on the MAC address for authentication, and attackers could exploit this by acquiring the MAC address via public Wi-Fi networks or malicious apps. Once in possession of the MAC address, attackers could log into WhatsApp as the victim and send messages.
+  In 2012, a vulnerability in WhatsApp allowed attackers to impersonate users by obtaining their MAC address. 
+  The app relied on the MAC address for authentication, and attackers could exploit this by acquiring the MAC 
+  address via public Wi-Fi networks or malicious apps. Once in possession of the MAC address, attackers could 
+  log into WhatsApp as the victim and send messages.
   \begin{itemize}
-    \item \textbf{Impact:} The use of static identifiers like MAC addresses for authentication posed significant security risks. \pause
-    \item \textbf{Outcome:} WhatsApp strengthened its security by implementing end-to-end encryption and ceasing to use MAC addresses for user authentication. 
+    \item \textbf{Impact:} The use of static identifiers like MAC addresses for authentication posed 
+      significant security risks. \pause
+    \item \textbf{Outcome:} WhatsApp strengthened its security by implementing end-to-end encryption 
+      and ceasing to use MAC addresses for user authentication. 
   \end{itemize}
 \end{frame}
-
-
-
 
 
 \begin{frame}
@@ -460,6 +497,8 @@ notes=hide,
 % Thank you for your attention
   \frametitle{Thank you for your attention}
   \begin{center}
+    % \Huge{The End}\\
+    % \Huge{Thank you for your attention}\\
     \Huge{Questions?}
   \end{center}
 \end{frame}
